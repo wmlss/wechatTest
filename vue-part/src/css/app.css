@@ -1,0 +1,72 @@
+.wechat_wrap {
+  padding: 20px;
+  position: relative;
+  top: 20px;
+}
+.content_wrap .content {
+  height: 300px;
+  overflow: auto;
+}
+.chat_wrap {
+  margin-top: 20px;
+}
+.chat_wrap .chat {
+  height: 180px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.chat_toolBar {
+  height: 30px;
+  position: relative;
+}
+.chat_toolBar i {
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.chat_content_wrap {
+
+}
+.chat_content {
+  width: 100%;
+  height: 145px;
+  overflow-y: auto;
+  resize: none;
+}
+#sendMsgButton {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  border-radius: 0;
+  width: 60px;
+}
+/*聊天内容*/
+.content {
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.myMessage {
+  /*position: relative;*/
+  /*clear: both;*/
+  margin-top: 3px;
+}
+.myMessage_content {
+  max-width: 50%;
+  float: right;
+}
+.content_wrap {
+    margin-top: 3px;
+}
+.otherMessage_content {
+  max-width: 50%;
+}
+.time_content span{
+  position: relative;
+  left: 45%;
+  /*transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);*/
+  color: #D1DBE5;
+  font-size: 14px;
+}
